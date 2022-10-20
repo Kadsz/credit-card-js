@@ -20,8 +20,6 @@ function setCardType(type) {
   ccLogo.setAttribute("src", `cc-${type}.svg`);
 }
 
-const addButton = document.querySelector("#add-button");
-
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 });
